@@ -165,7 +165,7 @@ public class BackgroundBookController {
 				filepath.getParentFile().mkdirs();
 			}
 			//将上传的文件保存到一个目标文件当中
-				mf.transferTo(new File("C:\\Users\\GRSTAR\\Documents\\Java大作业\\BookShop\\src\\main\\webapp\\images\\"+ filename));
+				mf.transferTo(new File("C:\\Users\\lenovo\\images\\"+ filename));
 			}
 		}
 			book.setPicture_s(fn[0]);

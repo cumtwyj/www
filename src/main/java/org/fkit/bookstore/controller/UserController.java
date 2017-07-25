@@ -85,7 +85,7 @@ public class UserController {
 			builder.append("");
 			SimpleEmail sendemail=new SimpleEmail();
 			sendemail.setHostName("smtp.163.com");
-			sendemail.setAuthentication("m13758971462@163.com","gaoyaopan97");
+			sendemail.setAuthentication("m13758971462@163.com","wangyujue");
 			sendemail.setCharset("UTF-8");
 			try{
 				sendemail.setCharset("UTF-8");

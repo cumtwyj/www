@@ -49,7 +49,7 @@ public class DiscussController {
 				filepath.getParentFile().mkdirs();
 			}
 			//将上传的文件保存到一个目标文件当中
-				file.transferTo(new File("C:\\Users\\GRSTAR\\Documents\\Java大作业\\BookShop\\src\\main\\webapp\\images\\"+ filename));
+				file.transferTo(new File("C:\\Users\\lenovo\\images\\"+ filename));
 				bookstoreService.addDiscuss(discuss);
 				return "success";
 			}else{
