@@ -64,7 +64,7 @@ public class BackgroundUserController {
 		return "user_list";
 	}
 	/**
-	 * 处理/allAdmin请求
+	 * 处理/allAdmin请求   
 	 */
 	@RequestMapping(value="/allAdmin")
 	public String alladmin(Model model){
