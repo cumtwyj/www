@@ -21,7 +21,7 @@ public class BookController {
 	@Qualifier("bookstoreService")
 	private BookstoreService bookstoreService;
 	/**
-	 * 处理/novel请求
+	 * 处理/novel请求   
 	 */
 	@RequestMapping(value="/novel")
 	public String novel(Model model){
